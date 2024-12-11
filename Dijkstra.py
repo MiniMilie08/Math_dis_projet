@@ -8,7 +8,7 @@ def dijkstra(C):
 
     # Dijkstra's algorithm only computes the shortest distance of all nodes to a single source node.
     # We iterate the algorithm for all possible sources to compute the distance matrix.
-    for source in range (n):
+    for source in range(n):
         
         # Initial distances are given by the cost matrix's copy at the source line.
         # We compute and update distances directly in the matrix D.
